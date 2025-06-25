@@ -2703,3 +2703,26 @@ StScrollBar StButton#hhandle:active {
   border-radius: 6px;
   padding: 12px;
 }
+
+/* Max's changes */
+
+.menu-cinnamon-org-applet:first-child {
+  padding: 0 10px;
+}
+
+.applet-box,
+.grouped-window-list-item-box {
+  transition-duration: 300;
+}
+
+.grouped-window-list-item-box * {
+  padding: 0 3px;
+}
+
+.applet-box:hover,
+.applet-box:active,
+.grouped-window-list-item-box:hover,
+.grouped-window-list-item-box:focus {
+  color: #e1e1e1;
+  background-color: #303030;
+}
